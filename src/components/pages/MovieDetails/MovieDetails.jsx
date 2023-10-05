@@ -1,7 +1,7 @@
 import { useState, useEffect, Suspense } from 'react';
 import { useParams, Outlet, useLocation } from 'react-router-dom';
 import { getMovieDetails } from 'components/services/fetchMovies';
-import { MovieCard } from 'components/components/MovieCard/MovieCard';
+import { MovieCard } from 'components/component/MovieCard/MovieCard';
 import { BackLink, AddInfo, Container } from './MovieDetails.styled';
 
 export const MovieDetails = () => {
