@@ -23,7 +23,7 @@ const Cast = lazy(() =>
 );
 
 const Reviews = lazy(() =>
-  import('./components/Reviews/Reviews').then(module => ({
+  import('./Reviews/Reviews').then(module => ({
     ...module,
     default: module.Reviews,
   }))
