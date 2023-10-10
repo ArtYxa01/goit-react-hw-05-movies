@@ -6,7 +6,7 @@ import { Home } from '../component/pages/Home/Home';
 import { MovieDetails } from '../component/pages/MovieDetails/MovieDetails';
 // import { Cast } from './Cast/Cast';
 // import { Reviews } from './Reviews/Reviews';
-import { PageNotFound } from '../components/Error/PageNotFound';
+import { PageNotFound } from '../component/Error/PageNotFound';
 
 const Movies = lazy(() =>
   import('../components/pages/Movies/Movies').then(module => ({
