@@ -8,11 +8,11 @@ import { MovieDetails } from '../component/pages/MovieDetails/MovieDetails';
 // import { Reviews } from './Reviews/Reviews';
 import { PageNotFound } from '../Error/PageNotFound';
 
-const Movies = lazy(()) => import ('../components/pages/Movies/Movies')
+const Movies = lazy(() => import ('../components/pages/Movies/Movies'))
 
-const Cast = lazy(()) => import ('../components/component/Cast/Cast')
+const Cast = lazy(() => import ('../components/component/Cast/Cast'))
 
-const Reviews = lazy(()) => import ('../components/component/Reviews/Reviews')
+const Reviews = lazy(() => import ('../components/component/Reviews/Reviews'))
 
 export const App = () => {
   return (
