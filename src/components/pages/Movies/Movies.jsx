@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { SearchBox } from 'components/SearchBox/SearchBox';
+import { SearchBox } from 'components/component/SearchBox/SearchBox';
 import { getMovieByName } from 'components/services/fetchMovies';
 import { MoviesList } from 'components/MoviesList/MoviesList';
 
