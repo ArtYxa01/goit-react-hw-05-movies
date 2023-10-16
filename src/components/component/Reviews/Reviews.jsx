@@ -1,7 +1,7 @@
 import { getMovieReviews } from 'components/services/fetchMovies';
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { NoReviews } from '../Error/NoReviews';
+import { NoReviews } from 'Error/NoReviews';
 import { List, Author, Text } from './Reviews.styled';
 
 export const Reviews = () => {
