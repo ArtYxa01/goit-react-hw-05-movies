@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { SearchBox } from 'components/component/SearchBox/SearchBox';
 import { getMovieByName } from 'components/services/fetchMovies';
-import { MoviesList } from 'MovieList/MoviesList';
+import { MoviesList } from 'components/component/MovieList/MoviesList';
 
 export const Movies = () => {
   const [movies, setMovies] = useState([]);
