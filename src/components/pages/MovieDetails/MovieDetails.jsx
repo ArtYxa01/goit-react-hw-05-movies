@@ -38,4 +38,4 @@ export const MovieDetails = () => {
     </>
   );
 };
-export default movieDetails
+export default MovieDetails
